@@ -1,0 +1,28 @@
+创建一个分数
+分子：numerator
+分母：denominator
+
+class Fraction:
+
+  def _init_(self, top, bottom):
+
+    self._num = top         #numerator
+ 
+    self._den = bottom    #denominator
+  
+  def getNumerator(self):
+
+    return self._num
+  
+  def setNumerator(self, top):
+
+    self._num = top
+
+
+top = int(input())
+
+bottom = int(input())
+
+x = Fraction()
+
+print(x)
